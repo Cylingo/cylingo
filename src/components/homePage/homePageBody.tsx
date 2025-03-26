@@ -1,19 +1,14 @@
 "use client";
 
-import { FC, useMemo, useState } from "react";
-import { Input } from "@/components/ui/input";
+import { FC } from "react";
 import Image from "next/image";
-import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { WordOfTheDay } from "@/components/homePage/wordOfTheDay";
 import { RecentlyAddedWords } from "@/components/homePage/recentlyAddedWords";
 import { DictionarySearch } from "@/components/dictSearch";
 import { useRouter } from "next/navigation";
 
-interface HomePageBodyProps {
-}
-
-export const HomePageBody: FC<HomePageBodyProps> = ({}) => {
+export const HomePageBody: FC = () => {
 	const router = useRouter();
 
 	return (

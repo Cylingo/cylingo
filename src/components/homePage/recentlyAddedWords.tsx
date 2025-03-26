@@ -7,7 +7,7 @@ export const RecentlyAddedWords: FC = () => {
 	const [wordIndex, setWordIndex] = useState(0);
 
 
-	const [recentlyAddedWordsList, setRecentlyAddedWordsList] = useState([
+	const [recentlyAddedWordsList] = useState([
 		{
 			word: "Chofta/Cohftes",
 			meaning: "bullshit or lies"

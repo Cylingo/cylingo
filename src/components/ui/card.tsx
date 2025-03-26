@@ -1,8 +1,7 @@
 import { FC, HTMLAttributes } from "react";
 import { cn } from "@/utils/cn";
 
-interface CardProps extends HTMLAttributes<HTMLDivElement> {
-}
+type CardProps = HTMLAttributes<HTMLDivElement>
 
 export const Card: FC<CardProps> = ({ ...props }) => {
 	return (

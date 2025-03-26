@@ -1,15 +1,8 @@
 "use client";
 
-import { FC, useState } from "react";
-import { Button } from "@/components/ui/button";
-import Image from "next/image";
-import { Card } from "@/components/ui/card";
+import { FC } from "react";
 
-
-interface FunFactsPageBodyProps {
-}
-
-export const FunFactsPageBody: FC<FunFactsPageBodyProps> = () => {
+export const FunFactsPageBody: FC = () => {
 	return (
 		<div
 			className="grid grid-cols-2 p-12 gap-12 bg-secondary min-h-[1000px]">

@@ -4,10 +4,6 @@ import { FC, useState } from "react";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 
-
-interface AboutUsProps {
-}
-
 export const AboutUsBody: FC = () => {
 	const [lang, setLang] = useState<"en" | "tr" | "gr">("en");
 
