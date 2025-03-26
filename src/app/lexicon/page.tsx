@@ -1,12 +1,12 @@
 import { HomePageHeader } from "@/components/homePageHeader";
-import { HomePageBody } from "@/components/homePage/homePageBody";
 import { Footer } from "@/components/footer";
+import { LexiconPageBody } from "@/components/lexiconPage/lexiconPageBody";
 
-export default function Home() {
+export default function Lexicon() {
 	return (
 		<div className="flex flex-col h-full">
 			<HomePageHeader />
-			<HomePageBody />
+			<LexiconPageBody />
 			<Footer />
 		</div>
 	);

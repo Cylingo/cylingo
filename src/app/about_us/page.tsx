@@ -1,12 +1,12 @@
 import { HomePageHeader } from "@/components/homePageHeader";
-import { HomePageBody } from "@/components/homePage/homePageBody";
 import { Footer } from "@/components/footer";
+import { AboutUsBody } from "@/components/aboutUsPage/aboutUsPageBody";
 
-export default function Home() {
+export default function AboutUs() {
 	return (
 		<div className="flex flex-col h-full">
 			<HomePageHeader />
-			<HomePageBody />
+			<AboutUsBody />
 			<Footer />
 		</div>
 	);

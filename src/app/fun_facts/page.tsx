@@ -1,12 +1,12 @@
 import { HomePageHeader } from "@/components/homePageHeader";
-import { HomePageBody } from "@/components/homePage/homePageBody";
 import { Footer } from "@/components/footer";
+import { FunFactsPageBody } from "@/components/funFactsPage/funFactsPageBody";
 
-export default function Home() {
+export default function FunFacts() {
 	return (
 		<div className="flex flex-col h-full">
 			<HomePageHeader />
-			<HomePageBody />
+			<FunFactsPageBody />
 			<Footer />
 		</div>
 	);
